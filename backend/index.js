@@ -8,6 +8,7 @@ const cors = require("cors");
 const contactRoutes = require("./routes/contactRoutes");
 const messageRoutes = require("./routes/messagesRoute");
 const userRoutes = require("./routes/userRoutes");
+const port = process.env.PORT || 5300;
 
 const app = express();
 app.use(express.json());
@@ -67,6 +68,6 @@ io.on("connection", (socket) => {
     });
 });
 
-server.listen(5300, () => {
+server.listen(port, () => {
     console.log("Server is running on port 5300");
 });
