@@ -1,0 +1,50 @@
+.container {
+    background-color: #4e4e4e;
+    height: 100%;
+    /* width: 100%; */
+    font-family: "Poppins", sans-serif;
+}
+
+.searchInput {
+    width: 80%;
+    border-color: rgba(238, 238, 238, 0.659);
+    border-radius: 50px;
+    padding: 0.3rem;
+}
+
+.cancelBtn {
+    /* border-color: rgba(238, 238, 238, 0.659); */
+    border: none;
+    border-radius: 50px;
+    background-color: transparent;
+    font-family: "Poppins", sans-serif;
+    color: #fff;
+}
+
+.contacts {
+    overflow: auto;
+}
+
+.contact {
+    background-color: #eee;
+    color: #4e4e4e;
+    margin: 0.5rem;
+    padding: 1rem 2rem;
+}
+
+.selected {
+    background-color: rgba(0, 0, 0, 0.4);
+    color: #fff;
+}
+
+.profileImg {
+    width: 20%;
+    border-radius: 50px;
+}
+
+.headerContainer {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 1rem 0;
+    align-items: center;
+}

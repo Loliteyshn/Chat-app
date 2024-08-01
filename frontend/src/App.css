@@ -1,0 +1,11 @@
+.App {
+    text-align: center;
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 30% 70%;
+}
+
+body {
+    background-color: #4e4e4e;
+}
